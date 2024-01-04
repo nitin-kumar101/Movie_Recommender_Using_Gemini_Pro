@@ -1,25 +1,13 @@
-# Langchain-Movie_Recommender-Gemini
 # Movie Recommender using Gemini Pro
-
-[![Build Status](your_build_status_badge_url)](your_build_status_link)
-[![License](your_license_badge_url)](your_license_link)
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Documentation](#documentation)
-- [Screenshots or Demo](#screenshots-or-demo)
-- [FAQ](#faq)
-- [Contact](#contact)
 
 ## Introduction
 
 Welcome to the Movie Recommender using Gemini Pro! This project leverages the power of Gemini Pro's language model to provide personalized movie recommendations based on user queries. The integration with Streamlit makes it user-friendly and interactive.
+
+## How it works
+The application fetches data from a CSV file, utilizing both Google's Gemini Pro (LLM) and Langchain Agents to handle user queries. The CSV agent employs a range of tools to analyze questions and produce fitting responses, with assistance from the LLM.
+
+To enhance user interaction, the application employs Streamlit to create an intuitive graphical interface (GUI) and depends on Langchain for seamless communication with the LLM.
 
 ## Installation
 
