@@ -25,8 +25,9 @@ To run the Movie Recommender, follow these steps:
 
 Run the application by executing the `main.py` file using the Streamlit CLI. Ensure that Streamlit is installed before running the application. Use the following command in your terminal:
 
-```bash
-streamlit run main.py
+  ```bash
+   streamlit run main.py
+  ```
 
 ## Contributing
 Contributions and improvements to the code are welcome! If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
