@@ -13,8 +13,17 @@ To enhance user interaction, the application employs Streamlit to create an intu
 
 To run the Movie Recommender, follow these steps:
 
-1. Clone the repository:
+1. Install the required dependencies by running the following command:
 
-   ```bash
-   git clone https://github.com/your-username/Movie-Recommender-Gemini-Pro.git
-   cd Movie-Recommender-Gemini-Pro
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    Additionally, obtain an OpenAI API key and add it to the `.env` file.
+
+## Usage
+
+Run the application by executing the `main.py` file using the Streamlit CLI. Ensure that Streamlit is installed before running the application. Use the following command in your terminal:
+
+```bash
+streamlit run main.py
