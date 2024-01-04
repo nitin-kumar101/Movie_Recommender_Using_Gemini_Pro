@@ -27,3 +27,6 @@ Run the application by executing the `main.py` file using the Streamlit CLI. Ens
 
 ```bash
 streamlit run main.py
+
+## Contributing
+Contributions and improvements to the code are welcome! If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
