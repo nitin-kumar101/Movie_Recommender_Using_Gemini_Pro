@@ -19,7 +19,7 @@ To run the Movie Recommender, follow these steps:
     pip install -r requirements.txt
     ```
 
-    Additionally, obtain an OpenAI API key and add it to the `.env` file.
+    Additionally, obtain a Google's API key and add it to the `.env` file.
 
 ## Usage
 
