@@ -9,7 +9,7 @@ from InstructorEmbedding import INSTRUCTOR
 import os
 
 # Create Google Palm LLM model], temperature=0.1)
-api_key="AIzaSyBfeEuqsx0B2E0SK24pb-SbAJiW07omR0Y"
+api_key=""
 llm = ChatGoogleGenerativeAI(model="gemini-pro",google_api_key=api_key)
 # # Initialize instructor embeddings using the Hugging Face model
 instructor_embeddings = HuggingFaceInstructEmbeddings("hku-nlp/instructor-base")
